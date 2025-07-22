@@ -126,23 +126,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="bg-secondary section-padding">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="mb-6">Ready to Make an Impact?</h2>
-          <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Learn more about our work or get in touch to explore partnership opportunities.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg">
-              <Link to="/board">Meet Our Board</Link>
-            </Button>
-            <Button asChild variant="outline" size="lg">
-              <Link to="/contact">Contact Us</Link>
-            </Button>
-          </div>
-        </div>
-      </section>
     </Layout>
   );
 };
