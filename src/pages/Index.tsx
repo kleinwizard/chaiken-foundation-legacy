@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Layout } from '@/components/Layout';
 import heroBackground from '@/assets/hero-background.jpg';
 import abstractBackground from '@/assets/abstract-background.jpg';
-import foundationWork1 from '@/assets/foundation-work-1.jpg';
+import jewishFederationCommunity from '@/assets/jewish-federation-community.jpg';
 import foundationWork2 from '@/assets/foundation-work-2.jpg';
 import { ArrowRight, Heart, Users, Scale, Lightbulb } from 'lucide-react';
 
@@ -103,7 +103,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300 overflow-hidden">
               <div className="relative h-64">
-                <img src={foundationWork1} alt="Community service and volunteer work" className="w-full h-full object-cover" />
+                <img src={jewishFederationCommunity} alt="Community service and volunteer work" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4 text-white">
                   <h3 className="text-xl font-semibold mb-2">Community Empowerment</h3>
