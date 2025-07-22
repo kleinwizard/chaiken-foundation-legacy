@@ -45,9 +45,6 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <div className="w-12 h-12 bg-accent/20 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <Heart className="h-6 w-6 text-accent" />
-                </div>
                 <CardTitle className="text-lg">Mission & Values</CardTitle>
               </CardHeader>
               <CardContent>
@@ -62,9 +59,6 @@ const Index = () => {
 
             <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <div className="w-12 h-12 bg-accent/20 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <Users className="h-6 w-6 text-accent" />
-                </div>
                 <CardTitle className="text-lg">Legacy</CardTitle>
               </CardHeader>
               <CardContent>
@@ -79,9 +73,6 @@ const Index = () => {
 
             <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <div className="w-12 h-12 bg-accent/20 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <Scale className="h-6 w-6 text-accent" />
-                </div>
                 <CardTitle className="text-lg">Our Values</CardTitle>
               </CardHeader>
               <CardContent>
@@ -96,9 +87,6 @@ const Index = () => {
 
             <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <div className="w-12 h-12 bg-accent/20 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <Lightbulb className="h-6 w-6 text-accent" />
-                </div>
                 <CardTitle className="text-lg">Areas of Focus</CardTitle>
               </CardHeader>
               <CardContent>
