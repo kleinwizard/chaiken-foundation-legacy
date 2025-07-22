@@ -83,7 +83,7 @@ const Values = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h1 className="mb-6">Values of The Chaiken Foundation</h1>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-center">
               Ten foundational principles guiding our philanthropic work
             </p>
           </div>

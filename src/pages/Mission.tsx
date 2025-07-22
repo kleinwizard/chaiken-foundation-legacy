@@ -11,7 +11,7 @@ const Mission = () => {
             <Quote className="h-8 w-8 text-accent" />
           </div>
           <h1 className="mb-6">Mission Statement</h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-center">
             Our commitment to building a more just, democratic, and pluralistic society
           </p>
         </div>
@@ -31,15 +31,15 @@ const Mission = () => {
                 <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full"></div>
               </div>
               
-              <div className="space-y-6 text-lg leading-relaxed">
-                <p className="first-letter:text-5xl first-letter:font-display first-letter:font-semibold first-letter:text-primary first-letter:float-left first-letter:mr-2 first-letter:mt-1">
+              <div className="space-y-6 text-lg leading-relaxed text-center max-w-none">
+                <p>
                   The Chaiken Foundation is committed to building a more just, democratic, and pluralistic society. 
                   Rooted in the legacy of Donald and Carole Chaiken (Donald and Carole Chaiken Foundation)—visionary 
                   builders, principled leaders, and determined problem-solvers—the Foundation invests in bold ideas 
                   and enduring partnerships that strengthen communities for generations to come.
                 </p>
 
-                <div className="bg-accent-subtle/50 p-6 rounded-lg border-l-4 border-accent">
+                <div className="bg-accent-subtle/50 p-6 rounded-lg border-l-4 border-accent text-center">
                   <p className="font-medium text-accent-foreground">
                     In 26 years of dedicated philanthropy, Donald and Carole Chaiken directed over 4,200 grants—building 
                     a legacy defined by principled giving, public responsibility, and a deep commitment to human dignity. 
@@ -49,13 +49,13 @@ const Mission = () => {
                   </p>
                 </div>
 
-                <p>
+                <p className="text-center">
                   We believe in the enduring power of Jewish values to inform a more ethical, equitable society and 
                   invest in organizations that foster connection, continuity, and a shared sense of purpose across 
                   generations and borders.
                 </p>
 
-                <div className="grid md:grid-cols-2 gap-6">
+                <div className="grid md:grid-cols-2 gap-6 text-center">
                   <div className="bg-gradient-to-br from-primary/5 to-primary/10 p-6 rounded-lg">
                     <h3 className="font-display text-xl font-medium mb-3 text-primary">Women's Leadership</h3>
                     <p>
@@ -81,7 +81,7 @@ const Mission = () => {
                   </p>
                 </div>
 
-                <div className="bg-primary/5 p-6 rounded-lg border border-primary/20">
+                <div className="bg-primary/5 p-6 rounded-lg border border-primary/20 text-center">
                   <p className="font-medium">
                     Our giving is guided by clarity of values, commitment to impact, and a deep respect for the long arc 
                     of change. Through thoughtful grantmaking and collaborative leadership, we strive to help shape a 

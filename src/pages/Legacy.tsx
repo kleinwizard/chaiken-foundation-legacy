@@ -1,6 +1,6 @@
 import { Layout } from '@/components/Layout';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Heart, Building, Award, Users } from 'lucide-react';
+import { Heart, Building } from 'lucide-react';
 
 const Legacy = () => {
   return (
@@ -27,7 +27,7 @@ const Legacy = () => {
               <div className="text-center mb-8">
                 <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full mb-6"></div>
               </div>
-              <p className="text-lg leading-relaxed text-center first-letter:text-5xl first-letter:font-display first-letter:font-semibold first-letter:text-primary first-letter:float-left first-letter:mr-2 first-letter:mt-1">
+              <p className="text-lg leading-relaxed text-center">
                 The Donald and Carole Chaiken Foundation is a living testament to the visionary leadership, 
                 generosity, and dedication to community that both Donald and Carole Chaiken embodied throughout 
                 their lives. Their philanthropic journey, marked by a deep commitment to Jewish values and 
@@ -41,7 +41,7 @@ const Legacy = () => {
         </div>
       </section>
 
-      {/* Timeline */}
+      {/* Biographies */}
       <section className="section-padding">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12">
@@ -98,17 +98,6 @@ const Legacy = () => {
                       for enough." His sharp intellect and candid approach to philanthropy were matched only by 
                       his deep desire to make a real, lasting impact.
                     </p>
-                    
-                    <div className="grid grid-cols-2 gap-3">
-                      <div className="bg-primary/5 p-3 rounded text-center">
-                        <Award className="h-5 w-5 text-primary mx-auto mb-1" />
-                        <p className="text-xs font-medium">Community Leader</p>
-                      </div>
-                      <div className="bg-accent/10 p-3 rounded text-center">
-                        <Users className="h-5 w-5 text-accent mx-auto mb-1" />
-                        <p className="text-xs font-medium">Mentor & Role Model</p>
-                      </div>
-                    </div>
                     
                     <p>
                       Donald's leadership extended beyond the world of real estate. He was deeply involved in 
@@ -168,29 +157,34 @@ const Legacy = () => {
                       daughters while being deeply engaged in their community.
                     </p>
                     
-                    <div className="grid grid-cols-3 gap-2 text-xs">
-                      <div className="bg-accent/10 p-2 rounded text-center">
-                        <p className="font-medium">Education</p>
-                        <p className="text-muted-foreground">UCLA Psychology</p>
-                      </div>
-                      <div className="bg-primary/10 p-2 rounded text-center">
-                        <p className="font-medium">Career</p>
-                        <p className="text-muted-foreground">Probation Officer</p>
-                      </div>
-                      <div className="bg-accent-subtle/30 p-2 rounded text-center">
-                        <p className="font-medium">Met Donald</p>
-                        <p className="text-muted-foreground">1966</p>
-                      </div>
-                    </div>
-                    
                     <p>
                       Carole's impact was felt across a wide array of causes, from supporting Jewish organizations 
                       to advocating for women's rights, LGBTQ+ causes, and religious pluralism in Israel. As a 
                       passionate supporter of education and social justice, Carole was instrumental in the creation 
                       of the Donald and Carole Chaiken Foundation in 1999, which has since provided crucial funding 
-                      for Jewish, educational, and community organizations. Her passions extended to art and 
-                      thoroughbred horse racing, areas where she cultivated lifelong interests and formed lasting 
-                      connections with a broad network of friends and supporters.
+                      for Jewish, educational, and community organizations.
+                    </p>
+                    
+                    <p>
+                      Her passions extended to art and thoroughbred horse racing, areas where she cultivated lifelong 
+                      interests and formed lasting connections with a broad network of friends and supporters. Carole's 
+                      diverse interests reflected her belief that a full life required engagement across multiple 
+                      spheres - from social justice to cultural appreciation to the joy of competitive sports.
+                    </p>
+                    
+                    <p>
+                      Throughout her life, Carole demonstrated an unwavering commitment to making the world more 
+                      equitable and just. Her advocacy work was driven by personal conviction and a deep empathy 
+                      for those facing discrimination or hardship. Whether supporting emerging Jewish artists or 
+                      fighting for LGBTQ+ rights, Carole brought the same intensity and strategic thinking that 
+                      characterized all her endeavors.
+                    </p>
+                    
+                    <p>
+                      Carole's legacy continues through the foundation she helped establish and the countless lives 
+                      she touched through her activism and philanthropy. Her vision of a more inclusive and 
+                      compassionate society remains at the heart of the Foundation's work today, inspiring new 
+                      generations of changemakers to carry forward her mission of justice and equality.
                     </p>
                   </div>
                 </CardContent>

@@ -128,7 +128,7 @@ const Board = () => {
                             <div key={paragraphIndex}>
                               {paragraphIndex === 0 && (
                                 <div className="bg-gradient-to-r from-accent-subtle/30 to-primary/5 p-4 rounded-lg border-l-4 border-accent mb-4">
-                                  <p className="text-base leading-relaxed font-medium first-letter:text-3xl first-letter:font-display first-letter:font-semibold first-letter:text-primary first-letter:float-left first-letter:mr-2 first-letter:mt-1">
+                                  <p className="text-base leading-relaxed font-medium">
                                     {paragraph}
                                   </p>
                                 </div>
