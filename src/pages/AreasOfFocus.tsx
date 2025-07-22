@@ -19,7 +19,7 @@ const focusAreas = [
     subAreas: [
       "SF Local",
       "Diaspora - National", 
-      "Israel - Fortifying Israel Long-term; Not Social Programs"
+      "Israel - Fortifying Israel Long-term"
     ],
     color: "bg-gradient-to-br from-blue-500/20 to-blue-600/30",
     iconColor: "text-blue-600",
@@ -32,7 +32,7 @@ const focusAreas = [
     ]
   },
   {
-    title: "Abortion/Women's Rights",
+    title: "Women's Rights",
     description: "Supporting reproductive freedom and women's leadership",
     icon: Shield,
     image: womensRightsImage,
@@ -113,18 +113,6 @@ const AreasOfFocus = () => {
             </div>
           </section>
 
-          {/* Key Principle */}
-          <div className="bg-gradient-to-r from-accent/10 to-primary/10 p-8 rounded-2xl mb-16 text-center border border-accent/20 elegant-shadow">
-            <div className="max-w-2xl mx-auto">
-              <h3 className="text-lg font-display font-semibold mb-2 text-primary">
-                Foundational Principle
-              </h3>
-              <p className="text-base text-muted-foreground">
-                No more than 10% of any nonprofit's budget
-              </p>
-            </div>
-          </div>
-
           {/* Focus Areas Grid */}
           <div className="grid gap-8 mb-16">
             {/* Jewish Community - Featured prominently */}
@@ -134,9 +122,6 @@ const AreasOfFocus = () => {
                   <div className="relative h-48 overflow-hidden rounded-t-lg">
                     <img src={focusAreas[0].image} alt="Jewish Community" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                    <div className={`absolute top-4 right-4 w-12 h-12 ${focusAreas[0].color} rounded-xl flex items-center justify-center`}>
-                      <Heart className={`h-6 w-6 ${focusAreas[0].iconColor}`} />
-                    </div>
                   </div>
                   <CardHeader className="text-center pb-4">
                     <CardTitle className="font-display text-2xl mb-2">
@@ -151,7 +136,6 @@ const AreasOfFocus = () => {
               <DialogContent className="max-w-2xl">
                 <DialogHeader>
                   <DialogTitle className="flex items-center gap-3 text-center justify-center">
-                    <Heart className={`h-5 w-5 ${focusAreas[0].iconColor}`} />
                     {focusAreas[0].title}
                   </DialogTitle>
                   <DialogDescription className="text-base text-center">
@@ -199,9 +183,6 @@ const AreasOfFocus = () => {
                         <div className="relative h-32 overflow-hidden rounded-t-lg">
                           <img src={area.image} alt={area.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                          <div className={`absolute top-3 right-3 w-10 h-10 ${area.color} rounded-xl flex items-center justify-center`}>
-                            <IconComponent className={`h-5 w-5 ${area.iconColor}`} />
-                          </div>
                         </div>
                         <CardHeader className="text-center pt-4 pb-4">
                           <CardTitle className="font-display text-lg text-center mb-1">
@@ -216,7 +197,6 @@ const AreasOfFocus = () => {
                     <DialogContent className="max-w-2xl">
                       <DialogHeader>
                         <DialogTitle className="flex items-center gap-3 text-center justify-center">
-                          <IconComponent className={`h-5 w-5 ${area.iconColor}`} />
                           {area.title}
                         </DialogTitle>
                         <DialogDescription className="text-base text-center">

@@ -7,13 +7,7 @@ const Mission = () => {
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-primary/5 to-background section-padding">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-accent/20 rounded-full mb-6">
-            <Quote className="h-8 w-8 text-accent" />
-          </div>
-          <h1 className="mb-6">Mission Statement</h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-center">
-            Our commitment to building a more just, democratic, and pluralistic society
-          </p>
+          <h1 className="mb-6">Mission</h1>
         </div>
       </section>
 
@@ -55,7 +49,7 @@ const Mission = () => {
                   generations and borders.
                 </p>
 
-                <div className="grid md:grid-cols-2 gap-6 text-center">
+                <div className="grid md:grid-cols-4 gap-6 text-center">
                   <div className="bg-gradient-to-br from-primary/5 to-primary/10 p-6 rounded-lg">
                     <h3 className="font-display text-xl font-medium mb-3 text-primary">Women's Leadership</h3>
                     <p>
@@ -72,13 +66,23 @@ const Mission = () => {
                       to opportunity, ensuring that all people can participate fully in civic and cultural life.
                     </p>
                   </div>
-                </div>
 
-                <div className="text-center p-6 bg-gradient-to-r from-muted/50 to-accent-subtle/30 rounded-lg">
-                  <p className="italic">
-                    We also believe in the power of the arts to inspire empathy, foster deeper dialogue, and unite diverse 
-                    communities. By supporting creative expression, we help build a society that is both humane and dynamic.
-                  </p>
+                  <div className="bg-gradient-to-br from-primary/5 to-primary/10 p-6 rounded-lg">
+                    <h3 className="font-display text-xl font-medium mb-3 text-primary">Jewish Values</h3>
+                    <p>
+                      We believe in the enduring power of Jewish values to inform a more ethical, equitable society and 
+                      invest in organizations that foster connection, continuity, and a shared sense of purpose across 
+                      generations and borders.
+                    </p>
+                  </div>
+
+                  <div className="bg-gradient-to-br from-accent/5 to-accent/10 p-6 rounded-lg">
+                    <h3 className="font-display text-xl font-medium mb-3 text-accent-foreground">Arts & Culture</h3>
+                    <p>
+                      We believe in the power of the arts to inspire empathy, foster deeper dialogue, and unite diverse 
+                      communities. By supporting creative expression, we help build a society that is both humane and dynamic.
+                    </p>
+                  </div>
                 </div>
 
                 <div className="bg-primary/5 p-6 rounded-lg border border-primary/20 text-center">

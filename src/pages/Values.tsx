@@ -133,17 +133,11 @@ const Values = () => {
                   <div className="relative h-48 overflow-hidden">
                     <img src={value.image} alt={value.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                    <div className={`absolute top-4 left-4 w-12 h-12 bg-gradient-to-br ${value.color} rounded-xl flex items-center justify-center backdrop-blur-sm border border-white/20`}>
-                      <span className="text-white font-bold text-lg">{value.number}</span>
-                    </div>
-                    <div className="absolute top-4 right-4 w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center backdrop-blur-sm">
-                      <IconComponent className="h-5 w-5 text-white" />
-                    </div>
                   </div>
                   
                   <CardHeader className="pb-4">
                     <CardTitle className="font-display text-xl text-center">
-                      <span className="text-accent font-bold">{value.number}.</span> {value.title}
+                      {value.title}
                     </CardTitle>
                   </CardHeader>
                   

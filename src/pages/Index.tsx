@@ -18,25 +18,12 @@ const Index = () => {
       >
         <div className="absolute inset-0 bg-primary/80"></div>
         <div className="relative z-10 max-w-4xl mx-auto text-center px-6 text-primary-foreground">
-          <h1 className="mb-6 font-display">
-            Building a More Just, Democratic, and Pluralistic Society
+          <h1 className="mb-6 font-display text-5xl lg:text-7xl font-bold">
+            The Chaiken Foundation
           </h1>
           <p className="text-xl md:text-2xl mb-8 font-light max-w-3xl mx-auto leading-relaxed">
-            Rooted in the legacy of Donald and Carole Chaiken, we invest in bold ideas and 
-            enduring partnerships that strengthen communities for generations to come.
+            We invest in bold ideas and enduring partnerships that strengthen communities for generations to come.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild variant="hero" size="xl">
-              <Link to="/mission">
-                Our Mission <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
-            <Button asChild variant="outline" size="xl" className="bg-white/10 border-white/30 text-white hover:bg-white/20">
-              <Link to="/contact">
-                Get in Touch
-              </Link>
-            </Button>
-          </div>
         </div>
       </section>
 

@@ -55,7 +55,7 @@ const Contact = () => {
           <div className="text-center mb-12">
             <h1 className="mb-6">Contact Us</h1>
             <p className="text-xl text-muted-foreground">
-              Ready to make an impact? Let's explore partnership opportunities together.
+              Get in touch to explore partnership opportunities.
             </p>
           </div>
 
@@ -74,10 +74,10 @@ const Contact = () => {
                     For grant inquiries and partnership opportunities:
                   </p>
                   <a 
-                    href="mailto:aidenkleinman@gmail.com"
+                    href="mailto:info@chaikenfoundation.org"
                     className="text-primary hover:text-primary-hover underline font-medium"
                   >
-                    aidenkleinman@gmail.com
+                    info@chaikenfoundation.org
                   </a>
                 </CardContent>
               </Card>

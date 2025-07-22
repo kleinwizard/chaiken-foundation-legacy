@@ -14,9 +14,7 @@ const Legacy = () => {
             <Heart className="h-8 w-8 text-accent" />
           </div>
           <h1 className="mb-6">The Legacy of Donald and Carole Chaiken</h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            A living testament to visionary leadership, generosity, and dedication to community
-          </p>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">A living testament to visionary leadership, generosity, and dedication to community</p>
         </div>
       </section>
 
@@ -30,7 +28,7 @@ const Legacy = () => {
                 <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full mb-6"></div>
               </div>
               <p className="text-lg leading-relaxed text-center">
-                The Donald and Carole Chaiken Foundation is a living testament to the visionary leadership, 
+                The Chaiken Foundation is a living testament to the visionary leadership, 
                 generosity, and dedication to community that both Donald and Carole Chaiken embodied throughout 
                 their lives. Their philanthropic journey, marked by a deep commitment to Jewish values and 
                 community empowerment, continues to inspire change and transform lives to this day. Their story 
