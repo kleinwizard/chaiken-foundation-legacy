@@ -46,13 +46,13 @@ const Legacy = () => {
       {/* Biographies */}
       <section className="section-padding">
         <div className="max-w-6xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12">
+          <div className="grid lg:grid-cols-2 gap-12 items-stretch">
             {/* Donald Chaiken */}
             <div id="donald-chaiken" className="relative">
               {/* Timeline connector */}
               <div className="absolute left-6 top-20 bottom-0 w-0.5 bg-gradient-to-b from-primary to-accent hidden lg:block"></div>
               
-              <Card className="relative card-gradient elegant-shadow hover:hover-shadow transition-all duration-500">
+              <Card className="relative card-gradient elegant-shadow hover:hover-shadow transition-all duration-500 h-full">
                 <div className="absolute -left-3 top-6 w-6 h-6 bg-primary rounded-full border-4 border-background hidden lg:block"></div>
                 
                 <CardHeader className="text-center pb-6">
@@ -126,7 +126,7 @@ const Legacy = () => {
               {/* Timeline connector */}
               <div className="absolute left-6 top-20 bottom-0 w-0.5 bg-gradient-to-b from-accent to-primary/50 hidden lg:block"></div>
               
-              <Card className="relative card-gradient elegant-shadow hover:hover-shadow transition-all duration-500">
+              <Card className="relative card-gradient elegant-shadow hover:hover-shadow transition-all duration-500 h-full">
                 <div className="absolute -left-3 top-6 w-6 h-6 bg-accent rounded-full border-4 border-background hidden lg:block"></div>
                 
                 <CardHeader className="text-center pb-6">

@@ -103,7 +103,7 @@ const AreasOfFocus = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 rounded-3xl transform -rotate-1"></div>
               <div className="relative bg-background/95 backdrop-blur-sm rounded-2xl p-12 elegant-shadow">
-                <h1 className="mb-6 bg-gradient-primary bg-clip-text text-transparent">
+                <h1 className="mb-6 bg-gradient-primary bg-clip-text text-transparent text-center">
                   Areas of Focus
                 </h1>
                 <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
@@ -138,26 +138,14 @@ const AreasOfFocus = () => {
                       <Heart className={`h-6 w-6 ${focusAreas[0].iconColor}`} />
                     </div>
                   </div>
-                  <CardHeader className="text-center pb-6">
+                  <CardHeader className="text-center pb-4">
                     <CardTitle className="font-display text-2xl text-center mb-2">
                       Jewish Community
                     </CardTitle>
                     <CardDescription className="text-lg text-center">
-                      {focusAreas[0].description}
+                      Supporting Jewish communities worldwide
                     </CardDescription>
                   </CardHeader>
-                  <CardContent>
-                    <div className="bg-accent/5 p-6 rounded-xl border border-accent/20">
-                      <ul className="space-y-3 max-w-2xl mx-auto">
-                        {focusAreas[0].subAreas?.map((area, index) => (
-                          <li key={index} className="flex items-start gap-3 text-center justify-center">
-                            <span className="text-accent font-medium">•</span>
-                            <span className="font-medium">{area}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </CardContent>
                 </Card>
               </DialogTrigger>
               <DialogContent className="max-w-2xl">
@@ -171,6 +159,17 @@ const AreasOfFocus = () => {
                   </DialogDescription>
                 </DialogHeader>
                 <div className="space-y-4">
+                  <div className="bg-accent/5 p-4 rounded-lg border border-accent/20">
+                    <h4 className="font-semibold mb-2 text-accent">Sub-Areas:</h4>
+                    <ul className="space-y-1">
+                      {focusAreas[0].subAreas?.map((area, index) => (
+                        <li key={index} className="text-sm flex items-start gap-2">
+                          <span className="text-accent font-medium">•</span>
+                          <span>{area}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                   <p className="text-sm leading-relaxed">
                     {focusAreas[0].detailedDescription}
                   </p>
@@ -204,11 +203,11 @@ const AreasOfFocus = () => {
                             <IconComponent className={`h-5 w-5 ${area.iconColor}`} />
                           </div>
                         </div>
-                        <CardHeader className="text-center h-full flex flex-col justify-center pt-4">
-                          <CardTitle className="font-display text-xl text-center mb-2">
+                        <CardHeader className="text-center pt-4 pb-4">
+                          <CardTitle className="font-display text-lg text-center mb-1">
                             {area.title}
                           </CardTitle>
-                          <CardDescription className="text-center text-sm">
+                          <CardDescription className="text-center text-xs px-2">
                             {area.description}
                           </CardDescription>
                         </CardHeader>
