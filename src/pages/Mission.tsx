@@ -37,15 +37,14 @@ const Mission = () => {
                 </div>
 
                 <div className="grid md:grid-cols-4 gap-6 text-center">
-                  <div className="bg-gradient-to-br from-primary/5 to-primary/10 p-6 rounded-lg">
-                    <h3 className="font-display text-xl font-medium mb-3 text-primary">Women's Leadership</h3>
+                  <div className="bg-gradient-to-br from-accent/5 to-accent/10 p-6 rounded-lg">
+                    <h3 className="font-display text-xl font-medium mb-3 text-accent-foreground">Arts & Culture</h3>
                     <p>
-                      Central to our mission is the advancement of women's rights and leadership. We believe that uplifting 
-                      women as changemakers is essential to building strong, inclusive, and resilient societies. When women 
-                      lead, communities thrive.
+                      We believe in the power of the arts to inspire empathy, foster deeper dialogue, and unite diverse 
+                      communities. By supporting creative expression, we help build a society that is both humane and dynamic.
                     </p>
                   </div>
-                  
+
                   <div className="bg-gradient-to-br from-accent/5 to-accent/10 p-6 rounded-lg">
                     <h3 className="font-display text-xl font-medium mb-3 text-accent-foreground">Democratic Values</h3>
                     <p>
@@ -62,12 +61,13 @@ const Mission = () => {
                       generations and borders.
                     </p>
                   </div>
-
-                  <div className="bg-gradient-to-br from-accent/5 to-accent/10 p-6 rounded-lg">
-                    <h3 className="font-display text-xl font-medium mb-3 text-accent-foreground">Arts & Culture</h3>
+                  
+                  <div className="bg-gradient-to-br from-primary/5 to-primary/10 p-6 rounded-lg">
+                    <h3 className="font-display text-xl font-medium mb-3 text-primary">Women's Leadership</h3>
                     <p>
-                      We believe in the power of the arts to inspire empathy, foster deeper dialogue, and unite diverse 
-                      communities. By supporting creative expression, we help build a society that is both humane and dynamic.
+                      Central to our mission is the advancement of women's rights and leadership. We believe that uplifting 
+                      women as changemakers is essential to building strong, inclusive, and resilient societies. When women 
+                      lead, communities thrive.
                     </p>
                   </div>
                 </div>
