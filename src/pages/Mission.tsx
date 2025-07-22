@@ -36,12 +36,6 @@ const Mission = () => {
                   </p>
                 </div>
 
-                <p className="text-center">
-                  We believe in the enduring power of Jewish values to inform a more ethical, equitable society and 
-                  invest in organizations that foster connection, continuity, and a shared sense of purpose across 
-                  generations and borders.
-                </p>
-
                 <div className="grid md:grid-cols-4 gap-6 text-center">
                   <div className="bg-gradient-to-br from-primary/5 to-primary/10 p-6 rounded-lg">
                     <h3 className="font-display text-xl font-medium mb-3 text-primary">Women's Leadership</h3>
