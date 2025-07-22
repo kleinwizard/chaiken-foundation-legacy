@@ -103,7 +103,7 @@ const AreasOfFocus = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 rounded-3xl transform -rotate-1"></div>
               <div className="relative bg-background/95 backdrop-blur-sm rounded-2xl p-12 elegant-shadow">
-                <h1 className="mb-6 bg-gradient-primary bg-clip-text text-transparent text-center">
+                <h1 className="mb-6 text-center">
                   Areas of Focus
                 </h1>
                 <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
@@ -139,10 +139,10 @@ const AreasOfFocus = () => {
                     </div>
                   </div>
                   <CardHeader className="text-center pb-4">
-                    <CardTitle className="font-display text-2xl text-center mb-2">
+                    <CardTitle className="font-display text-2xl mb-2">
                       Jewish Community
                     </CardTitle>
-                    <CardDescription className="text-lg text-center">
+                    <CardDescription className="text-lg">
                       Supporting Jewish communities worldwide
                     </CardDescription>
                   </CardHeader>
