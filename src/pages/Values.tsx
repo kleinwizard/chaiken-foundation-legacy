@@ -14,7 +14,7 @@ import {
 } from 'lucide-react';
 import justiceEquityImage from '@/assets/justice-equity.jpg';
 import democraticIntegrityImage from '@/assets/democratic-integrity.jpg';
-import humanDignityImage from '@/assets/human-dignity-multiethnic.jpg';
+import humanDignityImage from '@/assets/human-dignity-diverse.jpg';
 import womensLeadershipImage from '@/assets/womens-leadership.jpg';
 import communityBuildingImage from '@/assets/community-building.jpg';
 import jewishValuesImage from '@/assets/jewish-values-authentic.jpg';
