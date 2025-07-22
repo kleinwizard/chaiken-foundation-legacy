@@ -1,12 +1,16 @@
 import { Layout } from '@/components/Layout';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { Users, Award, Briefcase, GraduationCap } from 'lucide-react';
 
 const boardMembers = [
   {
     id: "julie-chaiken",
     name: "Julie Chaiken",
     role: "President of the Board of Directors",
+    icon: Award,
+    colorClass: "from-primary/20 to-primary/30",
+    badgeClass: "bg-primary/10 text-primary",
     bio: [
       "Julie Chaiken is the President of Davidon Corporation, one of Northern California's largest privately owned real estate development companies, which has created thousands of homes and impacted countless lives across the region. She is an accomplished entrepreneur, fashion designer, and philanthropist, and was the founder of the influential fashion line Chaiken. As President of the Board of Directors of the Chaiken Foundation, she brings decades of leadership experience, creative vision, and a deep commitment to social impact.",
       "Raised in Northern California, Chaiken earned her B.A. in History from UCLA before launching her career in media at USA Network. She went on to receive her MBA in Corporate Finance from NYU's Stern School of Business, a move that paved the way for her entry into the fashion industry. In 1994, she co-founded Chaiken and Capone, a fashion brand that quickly gained acclaim for its flattering, fashion-forward designs. By the late 1990s, her designs were featured in over 400 high-end boutiques and major retailers such as Barneys New York, Nordstrom, and Saks Fifth Avenue. Under her leadership, the brand evolved into the streamlined Chaiken label.",
@@ -19,6 +23,9 @@ const boardMembers = [
     id: "sharon-miller",
     name: "Sharon Miller",
     role: "Secretary, Board of Directors",
+    icon: Briefcase,
+    colorClass: "from-accent/20 to-accent/30",
+    badgeClass: "bg-accent/10 text-accent-foreground",
     bio: [
       "Sharon Miller is an award-winning seasoned executive with over 30 years of experience in leadership, strategic marketing, nonprofit governance, and global mentorship. As the Secretary of the Board of Directors at the Chaiken Foundation, she combines her extensive expertise in business and philanthropy with a deep commitment to social impact and educational empowerment.",
       "Sharon earned a Bachelor's in International Affairs from The George Washington University and the American University in Paris in 1990 and has traveled to over 75 countries. This international foundation has informed her strategic approach to nonprofit work and global mentoring throughout her career.",
@@ -31,6 +38,9 @@ const boardMembers = [
     id: "melissa-heller",
     name: "Melissa Heller",
     role: "Treasurer, Board of Directors",
+    icon: GraduationCap,
+    colorClass: "from-muted/30 to-muted/40",
+    badgeClass: "bg-muted text-foreground",
     bio: [
       "Melissa brings more than twenty years of development experience in the nonprofit world to the Chaiken Foundation board. A native of New Jersey, she earned her BA from Brandeis University and her JD from Cardozo School of Law, Yeshiva University. She has served on a variety of boards and committees for school, community, and Jewish organizations in the East Bay. Melissa is a member of the Board of Temple Sinai in Oakland, where she serves on the development committee and was instrumental in leading the Temple's capital campaign. She has also served on multiple rabbi search committees. Melissa lives in Oakland with her husband, Steven Douglas, and their 6th-generation Bay Area children."
     ]
@@ -40,40 +50,106 @@ const boardMembers = [
 const Board = () => {
   return (
     <Layout>
-      <div className="section-padding">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <h1 className="mb-6">Board of Directors</h1>
-            <p className="text-xl text-muted-foreground">
-              Meet the dedicated leaders guiding The Chaiken Foundation
-            </p>
+      {/* Hero Section */}
+      <section className="bg-gradient-to-b from-primary/5 to-background section-padding">
+        <div className="max-w-6xl mx-auto text-center">
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-accent/20 rounded-full mb-6">
+            <Users className="h-8 w-8 text-accent" />
           </div>
+          <h1 className="mb-6">Board of Directors</h1>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            Meet the dedicated leaders guiding The Chaiken Foundation's mission
+          </p>
+        </div>
+      </section>
 
-          <div className="space-y-8">
-            {boardMembers.map((member) => (
-              <Card key={member.id} id={member.id} className="card-gradient card-shadow">
-                <CardHeader>
-                  <div className="text-center">
-                    <CardTitle className="font-display text-2xl mb-2">
-                      {member.name}
-                    </CardTitle>
-                    <Badge variant="secondary" className="text-sm font-medium">
-                      {member.role}
-                    </Badge>
-                  </div>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  {member.bio.map((paragraph, index) => (
-                    <p key={index} className="text-base leading-relaxed">
-                      {paragraph}
-                    </p>
-                  ))}
-                </CardContent>
-              </Card>
-            ))}
+      {/* Board Members */}
+      <section className="section-padding">
+        <div className="max-w-6xl mx-auto">
+          <div className="space-y-12">
+            {boardMembers.map((member, index) => {
+              const IconComponent = member.icon;
+              return (
+                <div key={member.id} id={member.id}>
+                  <Card className="card-gradient elegant-shadow hover:hover-shadow transition-all duration-500 overflow-hidden">
+                    <div className="relative">
+                      {/* Background Pattern */}
+                      <div className="absolute inset-0 opacity-5">
+                        <div className={`w-full h-full bg-gradient-to-br ${member.colorClass}`}></div>
+                      </div>
+                      
+                      <CardHeader className="relative">
+                        <div className="flex flex-col lg:flex-row lg:items-center gap-6">
+                          {/* Profile Image Placeholder */}
+                          <div className={`w-32 h-32 bg-gradient-to-br ${member.colorClass} rounded-full flex items-center justify-center mx-auto lg:mx-0 flex-shrink-0`}>
+                            <IconComponent className="h-16 w-16 text-white" />
+                          </div>
+                          
+                          {/* Name and Title */}
+                          <div className="text-center lg:text-left flex-1">
+                            <CardTitle className="font-display text-3xl lg:text-4xl mb-3">
+                              {member.name}
+                            </CardTitle>
+                            <Badge className={`${member.badgeClass} text-sm font-medium px-4 py-2`}>
+                              {member.role}
+                            </Badge>
+                            
+                            {/* Leadership Highlights */}
+                            <div className="mt-4 flex flex-wrap justify-center lg:justify-start gap-2">
+                              {index === 0 && (
+                                <>
+                                  <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">Real Estate Leader</span>
+                                  <span className="text-xs bg-accent/10 text-accent-foreground px-2 py-1 rounded-full">Fashion Entrepreneur</span>
+                                  <span className="text-xs bg-muted px-2 py-1 rounded-full">Philanthropist</span>
+                                </>
+                              )}
+                              {index === 1 && (
+                                <>
+                                  <span className="text-xs bg-accent/10 text-accent-foreground px-2 py-1 rounded-full">30+ Years Experience</span>
+                                  <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">Global Mentor</span>
+                                  <span className="text-xs bg-muted px-2 py-1 rounded-full">75+ Countries</span>
+                                </>
+                              )}
+                              {index === 2 && (
+                                <>
+                                  <span className="text-xs bg-muted px-2 py-1 rounded-full">20+ Years Nonprofit</span>
+                                  <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">Legal Background</span>
+                                  <span className="text-xs bg-accent/10 text-accent-foreground px-2 py-1 rounded-full">Bay Area Leader</span>
+                                </>
+                              )}
+                            </div>
+                          </div>
+                        </div>
+                      </CardHeader>
+                      
+                      <CardContent className="relative">
+                        <div className="space-y-6">
+                          {member.bio.map((paragraph, paragraphIndex) => (
+                            <div key={paragraphIndex}>
+                              {paragraphIndex === 0 && (
+                                <div className="bg-gradient-to-r from-accent-subtle/30 to-primary/5 p-4 rounded-lg border-l-4 border-accent mb-4">
+                                  <p className="text-base leading-relaxed font-medium first-letter:text-3xl first-letter:font-display first-letter:font-semibold first-letter:text-primary first-letter:float-left first-letter:mr-2 first-letter:mt-1">
+                                    {paragraph}
+                                  </p>
+                                </div>
+                              )}
+                              {paragraphIndex > 0 && (
+                                <p className="text-sm leading-relaxed text-muted-foreground">
+                                  {paragraph}
+                                </p>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      </CardContent>
+                    </div>
+                  </Card>
+                </div>
+              );
+            })}
           </div>
         </div>
-      </div>
+      </section>
     </Layout>
   );
 };
