@@ -54,7 +54,7 @@ const Board = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-primary/5 to-background section-padding">
+      <section className="bg-gradient-to-b from-primary/5 to-background px-6 md:px-8 lg:px-12 pt-16 pb-8">
         <div className="max-w-6xl mx-auto text-center">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-accent/20 rounded-full mb-6">
             <Users className="h-8 w-8 text-accent" />
@@ -67,9 +67,9 @@ const Board = () => {
       </section>
 
       {/* Board Members */}
-      <section className="section-padding">
+      <section className="px-6 md:px-8 lg:px-12 py-8">
         <div className="max-w-6xl mx-auto">
-          <div className="space-y-12">
+          <div className="space-y-8">
             {boardMembers.map((member, index) => {
               const IconComponent = member.icon;
               return (
