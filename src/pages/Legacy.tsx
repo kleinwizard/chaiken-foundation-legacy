@@ -14,7 +14,7 @@ const Legacy = () => {
             <Flame className="h-8 w-8 text-accent" />
           </div>
           <h1 className="mb-6">The Legacy of Donald and Carole Chaiken</h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">A living testament to visionary leadership, generosity, and dedication to community</p>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed whitespace-nowrap">A living testament to visionary leadership, generosity, and dedication to community</p>
         </div>
       </section>
 
