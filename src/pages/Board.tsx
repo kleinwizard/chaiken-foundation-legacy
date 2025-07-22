@@ -2,7 +2,7 @@ import { Layout } from '@/components/Layout';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Users, Award, Briefcase, GraduationCap } from 'lucide-react';
-import julieImage from '@/assets/julie-chaiken.jpg';
+import julieImage from '/lovable-uploads/46a45362-ce9e-4d76-a421-e15b7cc76559.png';
 import sharonImage from '@/assets/sharon-miller.jpg';
 import melissaImage from '@/assets/melissa-heller.jpg';
 
