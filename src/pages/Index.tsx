@@ -79,7 +79,7 @@ const Index = () => {
 
             <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl">Areas of Focus</CardTitle>
+                <CardTitle className="text-2xl">Focus</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center mb-4">

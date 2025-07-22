@@ -10,7 +10,7 @@ const navItems = [
   { name: 'Legacy', href: '/legacy' },
   { name: 'Board', href: '/board' },
   { name: 'Values', href: '/values' },
-  { name: 'Areas of Focus', href: '/areas-of-focus' },
+  { name: 'Focus', href: '/areas-of-focus' },
   { name: 'Contact', href: '/contact' },
 ];
 

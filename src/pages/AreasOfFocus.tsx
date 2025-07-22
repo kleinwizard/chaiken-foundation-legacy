@@ -104,7 +104,7 @@ const AreasOfFocus = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 rounded-3xl transform -rotate-1"></div>
               <div className="relative bg-background/95 backdrop-blur-sm rounded-2xl p-12 elegant-shadow">
                 <h1 className="mb-6 text-center">
-                  Areas of Focus
+                  Focus
                 </h1>
                 <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
                   Strategic investments aligned with our mission and values, creating lasting impact across communities
