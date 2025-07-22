@@ -2,6 +2,7 @@ import { Layout } from '@/components/Layout';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Users, Award, Briefcase, GraduationCap } from 'lucide-react';
+import boardPlaceholder from '@/assets/board-placeholder.jpg';
 
 const boardMembers = [
   {
@@ -81,9 +82,9 @@ const Board = () => {
                       <CardHeader className="relative">
                         <div className="flex flex-col lg:flex-row lg:items-center gap-6">
                           {/* Profile Image Placeholder */}
-                          <div className={`w-32 h-32 bg-gradient-to-br ${member.colorClass} rounded-full flex items-center justify-center mx-auto lg:mx-0 flex-shrink-0`}>
-                            <IconComponent className="h-16 w-16 text-white" />
-                          </div>
+                           <div className="w-32 h-32 rounded-full mx-auto lg:mx-0 flex-shrink-0 overflow-hidden border-4 border-primary/20">
+                             <img src={boardPlaceholder} alt={member.name} className="w-full h-full object-cover" />
+                           </div>
                           
                           {/* Name and Title */}
                           <div className="text-center lg:text-left flex-1">

@@ -180,12 +180,14 @@ const Legacy = () => {
                       characterized all her endeavors.
                     </p>
                     
-                    <p>
-                      Carole's legacy continues through the foundation she helped establish and the countless lives 
-                      she touched through her activism and philanthropy. Her vision of a more inclusive and 
-                      compassionate society remains at the heart of the Foundation's work today, inspiring new 
-                      generations of changemakers to carry forward her mission of justice and equality.
-                    </p>
+                     <p>
+                       Carole's legacy continues through the foundation she helped establish and the countless lives 
+                       she touched through her activism and philanthropy. Her vision of a more inclusive and 
+                       compassionate society remains at the heart of the Foundation's work today, inspiring new 
+                       generations of changemakers to carry forward her mission of justice and equality. Her commitment 
+                       to building bridges across communities and her belief in the power of collective action continue 
+                       to guide the Foundation's approach to transformative philanthropy.
+                     </p>
                   </div>
                 </CardContent>
               </Card>

@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Layout } from '@/components/Layout';
 import heroBackground from '@/assets/hero-background.jpg';
+import abstractBackground from '@/assets/abstract-background.jpg';
 import { ArrowRight, Heart, Users, Scale, Lightbulb } from 'lucide-react';
 
 const Index = () => {
@@ -38,8 +39,11 @@ const Index = () => {
       </section>
 
       {/* Introduction */}
-      <section className="section-padding">
-        <div className="max-w-6xl mx-auto">
+      <section className="section-padding relative">
+        <div className="absolute inset-0 opacity-5">
+          <img src={abstractBackground} alt="" className="w-full h-full object-cover" />
+        </div>
+        <div className="max-w-6xl mx-auto relative">
           <div className="text-center mb-16">
             <h2 className="mb-6">A Legacy of Principled Philanthropy</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
