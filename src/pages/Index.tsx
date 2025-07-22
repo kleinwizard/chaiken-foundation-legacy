@@ -38,7 +38,7 @@ const Index = () => {
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Over 26 years of dedicated philanthropy, Donald and Carole Chaiken directed more than 4,200 grants—building 
               a legacy defined by principled giving, public responsibility, and a deep commitment to human dignity, now 
-              carried forward through the mission of the Chaiken Foundation.
+              carried forward through the mission of the <span className="whitespace-nowrap">Chaiken Foundation</span>.
             </p>
           </div>
 
