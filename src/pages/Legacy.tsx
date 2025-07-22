@@ -2,7 +2,7 @@ import { Layout } from '@/components/Layout';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Heart, Building } from 'lucide-react';
 import donaldImage from '/lovable-uploads/3324c0da-c31e-4072-899f-6af29d43b362.png';
-import caroleImage from '@/assets/carole-chaiken.jpg';
+import caroleImage from '/lovable-uploads/0326c4df-d7d2-4079-94d6-2a4d51a32ad5.png';
 
 const Legacy = () => {
   return (
