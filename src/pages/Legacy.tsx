@@ -1,6 +1,6 @@
 import { Layout } from '@/components/Layout';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Flame, Building } from 'lucide-react';
+import { Building } from 'lucide-react';
 import donaldImage from '/lovable-uploads/3324c0da-c31e-4072-899f-6af29d43b362.png';
 import caroleImage from '/lovable-uploads/0326c4df-d7d2-4079-94d6-2a4d51a32ad5.png';
 
@@ -11,7 +11,7 @@ const Legacy = () => {
       <section className="bg-gradient-to-b from-primary/5 to-background px-6 md:px-8 lg:px-12 pt-16 pb-8">
         <div className="max-w-6xl mx-auto text-center">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-accent/20 rounded-full mb-6">
-            <Flame className="h-8 w-8 text-accent" />
+            <span className="text-2xl font-bold text-accent">ז״ל</span>
           </div>
           <h1 className="mb-6">The Legacy of Donald and Carole Chaiken</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed whitespace-nowrap">A living testament to visionary leadership, generosity, and dedication to community</p>
