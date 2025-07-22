@@ -45,57 +45,45 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <CardTitle className="text-lg">Mission & Values</CardTitle>
+                <CardTitle className="text-2xl">Mission & Values</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center mb-4">
                   Discover our commitment to justice, equity, and human dignity.
                 </CardDescription>
-                <Button asChild variant="ghost" className="w-full">
-                  <Link to="/mission">Learn More</Link>
-                </Button>
               </CardContent>
             </Card>
 
             <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <CardTitle className="text-lg">Legacy</CardTitle>
+                <CardTitle className="text-2xl">Legacy</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center mb-4">
                   Honor the visionary leadership of Donald and Carole Chaiken.
                 </CardDescription>
-                <Button asChild variant="ghost" className="w-full">
-                  <Link to="/legacy">Explore Legacy</Link>
-                </Button>
               </CardContent>
             </Card>
 
             <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <CardTitle className="text-lg">Our Values</CardTitle>
+                <CardTitle className="text-2xl">Our Values</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center mb-4">
                   Ten foundational principles guiding our philanthropic work.
                 </CardDescription>
-                <Button asChild variant="ghost" className="w-full">
-                  <Link to="/values">View Values</Link>
-                </Button>
               </CardContent>
             </Card>
 
             <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <CardTitle className="text-lg">Areas of Focus</CardTitle>
+                <CardTitle className="text-2xl">Areas of Focus</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center mb-4">
                   Strategic investments in democracy, women's rights, and community.
                 </CardDescription>
-                <Button asChild variant="ghost" className="w-full">
-                  <Link to="/areas-of-focus">See Focus Areas</Link>
-                </Button>
               </CardContent>
             </Card>
           </div>
