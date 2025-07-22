@@ -18,7 +18,7 @@ const Index = () => {
       >
         <div className="absolute inset-0 bg-primary/80"></div>
         <div className="relative z-10 max-w-4xl mx-auto text-center px-6 text-primary-foreground">
-          <h1 className="mb-6 font-display text-6xl lg:text-8xl font-bold bg-gradient-primary bg-clip-text text-transparent">
+          <h1 className="mb-6 font-display text-6xl lg:text-8xl font-bold bg-gradient-primary bg-clip-text text-transparent whitespace-nowrap">
             The Chaiken Foundation
           </h1>
           <p className="text-xl md:text-2xl mb-8 font-light max-w-3xl mx-auto leading-relaxed text-primary-foreground">
