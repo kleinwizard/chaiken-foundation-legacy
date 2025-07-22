@@ -4,15 +4,8 @@ import { Quote } from 'lucide-react';
 const Mission = () => {
   return (
     <Layout>
-      {/* Hero Section */}
-      <section className="bg-gradient-to-b from-primary/5 to-background section-padding">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="mb-6">Mission</h1>
-        </div>
-      </section>
-
       {/* Mission Statement Content */}
-      <section className="section-padding">
+      <section className="section-padding pt-16">
         <div className="max-w-4xl mx-auto">
           {/* Foundation Title Card */}
           <div className="relative mb-16">
