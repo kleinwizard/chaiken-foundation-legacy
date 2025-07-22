@@ -16,7 +16,7 @@ import justiceEquityImage from '@/assets/justice-equity.jpg';
 import democraticIntegrityImage from '@/assets/democratic-integrity.jpg';
 import humanDignityImage from '@/assets/human-dignity-community.jpg';
 import womensLeadershipImage from '@/assets/womens-leadership.jpg';
-import communityBuildingImage from '@/assets/community-building.jpg';
+import communityBuildingImage from '@/assets/community-building-jewish.jpg';
 import jewishValuesImage from '@/assets/jewish-values-authentic.jpg';
 import creativeExpressionImage from '@/assets/creative-expression.jpg';
 import longTermImpactImage from '@/assets/long-term-impact.jpg';
