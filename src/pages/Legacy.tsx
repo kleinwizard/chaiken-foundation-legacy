@@ -8,7 +8,7 @@ const Legacy = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-primary/5 to-background section-padding">
+      <section className="bg-gradient-to-b from-primary/5 to-background px-6 md:px-8 lg:px-12 pt-16 pb-8">
         <div className="max-w-6xl mx-auto text-center">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-accent/20 rounded-full mb-6">
             <Flame className="h-8 w-8 text-accent" />
@@ -19,7 +19,7 @@ const Legacy = () => {
       </section>
 
       {/* Introduction */}
-      <section className="section-padding">
+      <section className="px-6 md:px-8 lg:px-12 py-8">
         <div className="max-w-4xl mx-auto">
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-accent/5 to-primary/5 rounded-2xl"></div>
@@ -42,7 +42,7 @@ const Legacy = () => {
       </section>
 
       {/* Biographies */}
-      <section className="section-padding">
+      <section className="px-6 md:px-8 lg:px-12 py-8">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-stretch">
             {/* Donald Chaiken */}
