@@ -2,7 +2,9 @@ import { Layout } from '@/components/Layout';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Users, Award, Briefcase, GraduationCap } from 'lucide-react';
-import boardPlaceholder from '@/assets/board-placeholder.jpg';
+import julieImage from '@/assets/julie-chaiken.jpg';
+import sharonImage from '@/assets/sharon-miller.jpg';
+import melissaImage from '@/assets/melissa-heller.jpg';
 
 const boardMembers = [
   {
@@ -83,7 +85,7 @@ const Board = () => {
                         <div className="flex flex-col lg:flex-row lg:items-center gap-6">
                           {/* Profile Image Placeholder */}
                            <div className="w-32 h-32 rounded-full mx-auto lg:mx-0 flex-shrink-0 overflow-hidden border-4 border-primary/20">
-                             <img src={boardPlaceholder} alt={member.name} className="w-full h-full object-cover" />
+                             <img src={index === 0 ? julieImage : index === 1 ? sharonImage : melissaImage} alt={member.name} className="w-full h-full object-cover" />
                            </div>
                           
                           {/* Name and Title */}

@@ -4,6 +4,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Layout } from '@/components/Layout';
 import heroBackground from '@/assets/hero-background.jpg';
 import abstractBackground from '@/assets/abstract-background.jpg';
+import foundationWork1 from '@/assets/foundation-work-1.jpg';
+import foundationWork2 from '@/assets/foundation-work-2.jpg';
 import { ArrowRight, Heart, Users, Scale, Lightbulb } from 'lucide-react';
 
 const Index = () => {
@@ -120,6 +122,42 @@ const Index = () => {
                   <Link to="/areas-of-focus">See Focus Areas</Link>
                 </Button>
               </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Foundation Work */}
+      <section className="section-padding bg-accent/5">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="mb-6">Our Impact in Action</h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Witness the transformative power of strategic philanthropy through our community partnerships and initiatives.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300 overflow-hidden">
+              <div className="relative h-64">
+                <img src={foundationWork1} alt="Community service and volunteer work" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div className="absolute bottom-4 left-4 right-4 text-white">
+                  <h3 className="text-xl font-semibold mb-2">Community Empowerment</h3>
+                  <p className="text-sm opacity-90">Supporting grassroots organizations and volunteer initiatives that create lasting change in local communities.</p>
+                </div>
+              </div>
+            </Card>
+            
+            <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300 overflow-hidden">
+              <div className="relative h-64">
+                <img src={foundationWork2} alt="Educational programs and mentorship" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div className="absolute bottom-4 left-4 right-4 text-white">
+                  <h3 className="text-xl font-semibold mb-2">Educational Innovation</h3>
+                  <p className="text-sm opacity-90">Investing in educational programs and mentorship opportunities that empower individuals and strengthen communities.</p>
+                </div>
+              </div>
             </Card>
           </div>
         </div>

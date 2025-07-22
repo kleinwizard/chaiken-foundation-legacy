@@ -1,14 +1,21 @@
+import { useState } from 'react';
 import { Layout } from '@/components/Layout';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
 import { Heart, Shield, Palette, Vote, Plus } from 'lucide-react';
+import jewishCommunityImage from '@/assets/jewish-community.jpg';
+import womensRightsImage from '@/assets/womens-rights.jpg';
+import artsCultureImage from '@/assets/arts-culture.jpg';
+import democracyImage from '@/assets/democracy.jpg';
+import strategicInitiativesImage from '@/assets/strategic-initiatives.jpg';
 
 const focusAreas = [
   {
     title: "Jewish Community",
     description: "Supporting Jewish communities worldwide",
     icon: Heart,
+    image: jewishCommunityImage,
     subAreas: [
       "SF Local",
       "Diaspora - National", 
@@ -28,6 +35,7 @@ const focusAreas = [
     title: "Abortion/Women's Rights",
     description: "Supporting reproductive freedom and women's leadership",
     icon: Shield,
+    image: womensRightsImage,
     color: "bg-gradient-to-br from-purple-500/20 to-purple-600/30",
     iconColor: "text-purple-600",
     detailedDescription: "We champion women's rights and reproductive freedom as fundamental to building equitable societies. Our investments support organizations working to protect reproductive access, advance women's leadership in all sectors, and create systemic change that empowers women as changemakers.",
@@ -42,6 +50,7 @@ const focusAreas = [
     title: "Arts/Culture",
     description: "Creative expression and cultural understanding",
     icon: Palette,
+    image: artsCultureImage,
     color: "bg-gradient-to-br from-red-500/20 to-red-600/30",
     iconColor: "text-red-600",
     detailedDescription: "We believe in the transformative power of arts and culture to build bridges, foster empathy, and strengthen communities. Our cultural investments support artistic expression, cultural preservation, and creative programs that bring diverse communities together.",
@@ -56,6 +65,7 @@ const focusAreas = [
     title: "Democracy",
     description: "Protecting democratic institutions and civil liberties",
     icon: Vote,
+    image: democracyImage,
     color: "bg-gradient-to-br from-green-500/20 to-green-600/30",
     iconColor: "text-green-600",
     detailedDescription: "Our democracy work focuses on strengthening democratic institutions, protecting civil liberties, and ensuring that all people can participate fully in civic life. We support organizations working to defend voting rights, combat authoritarianism, and promote transparent governance.",
@@ -70,6 +80,7 @@ const focusAreas = [
     title: "Other Strategic Initiatives",
     description: "Additional mission-aligned opportunities",
     icon: Plus,
+    image: strategicInitiativesImage,
     color: "bg-gradient-to-br from-orange-500/20 to-orange-600/30",
     iconColor: "text-orange-600",
     detailedDescription: "This category allows us flexibility to support emerging opportunities and innovative approaches that align with our mission but may not fit neatly into our other focus areas. These investments often represent cutting-edge solutions to systemic challenges.",
@@ -120,10 +131,14 @@ const AreasOfFocus = () => {
             <Dialog>
               <DialogTrigger asChild>
                 <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300 cursor-pointer group">
-                  <CardHeader className="text-center pb-6">
-                    <div className={`w-20 h-20 ${focusAreas[0].color} rounded-2xl mx-auto mb-4 flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
-                      <Heart className={`h-10 w-10 ${focusAreas[0].iconColor}`} />
+                  <div className="relative h-48 overflow-hidden rounded-t-lg">
+                    <img src={focusAreas[0].image} alt="Jewish Community" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    <div className={`absolute top-4 right-4 w-12 h-12 ${focusAreas[0].color} rounded-xl flex items-center justify-center`}>
+                      <Heart className={`h-6 w-6 ${focusAreas[0].iconColor}`} />
                     </div>
+                  </div>
+                  <CardHeader className="text-center pb-6">
                     <CardTitle className="font-display text-2xl text-center mb-2">
                       Jewish Community
                     </CardTitle>
@@ -182,10 +197,14 @@ const AreasOfFocus = () => {
                   <Dialog key={area.title}>
                     <DialogTrigger asChild>
                       <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300 cursor-pointer group h-full">
-                        <CardHeader className="text-center h-full flex flex-col justify-center">
-                          <div className={`w-16 h-16 ${area.color} rounded-2xl mx-auto mb-4 flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
-                            <IconComponent className={`h-8 w-8 ${area.iconColor}`} />
+                        <div className="relative h-32 overflow-hidden rounded-t-lg">
+                          <img src={area.image} alt={area.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                          <div className={`absolute top-3 right-3 w-10 h-10 ${area.color} rounded-xl flex items-center justify-center`}>
+                            <IconComponent className={`h-5 w-5 ${area.iconColor}`} />
                           </div>
+                        </div>
+                        <CardHeader className="text-center h-full flex flex-col justify-center pt-4">
                           <CardTitle className="font-display text-xl text-center mb-2">
                             {area.title}
                           </CardTitle>

@@ -1,6 +1,8 @@
 import { Layout } from '@/components/Layout';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Heart, Building } from 'lucide-react';
+import donaldImage from '@/assets/donald-chaiken.jpg';
+import caroleImage from '@/assets/carole-chaiken.jpg';
 
 const Legacy = () => {
   return (
@@ -54,8 +56,8 @@ const Legacy = () => {
                 <div className="absolute -left-3 top-6 w-6 h-6 bg-primary rounded-full border-4 border-background hidden lg:block"></div>
                 
                 <CardHeader className="text-center pb-6">
-                  <div className="w-24 h-24 bg-gradient-to-br from-primary/20 to-primary/30 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <Building className="h-12 w-12 text-primary" />
+                  <div className="w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden border-4 border-primary/20">
+                    <img src={donaldImage} alt="Donald Chaiken" className="w-full h-full object-cover" />
                   </div>
                   <CardTitle className="font-display text-3xl bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
                     Donald Chaiken
@@ -128,8 +130,8 @@ const Legacy = () => {
                 <div className="absolute -left-3 top-6 w-6 h-6 bg-accent rounded-full border-4 border-background hidden lg:block"></div>
                 
                 <CardHeader className="text-center pb-6">
-                  <div className="w-24 h-24 bg-gradient-to-br from-accent/20 to-accent/30 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <Heart className="h-12 w-12 text-accent" />
+                  <div className="w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden border-4 border-accent/20">
+                    <img src={caroleImage} alt="Carole Chaiken" className="w-full h-full object-cover" />
                   </div>
                   <CardTitle className="font-display text-3xl bg-gradient-to-r from-accent to-accent/80 bg-clip-text text-transparent">
                     Carole Chaiken
@@ -172,21 +174,23 @@ const Legacy = () => {
                       spheres - from social justice to cultural appreciation to the joy of competitive sports.
                     </p>
                     
-                    <p>
-                      Throughout her life, Carole demonstrated an unwavering commitment to making the world more 
-                      equitable and just. Her advocacy work was driven by personal conviction and a deep empathy 
-                      for those facing discrimination or hardship. Whether supporting emerging Jewish artists or 
-                      fighting for LGBTQ+ rights, Carole brought the same intensity and strategic thinking that 
-                      characterized all her endeavors.
-                    </p>
-                    
+                     <p>
+                       Throughout her life, Carole demonstrated an unwavering commitment to making the world more 
+                       equitable and just. Her advocacy work was driven by personal conviction and a deep empathy 
+                       for those facing discrimination or hardship. Whether supporting emerging Jewish artists or 
+                       fighting for LGBTQ+ rights, Carole brought the same intensity and strategic thinking that 
+                       characterized all her endeavors. Her leadership extended beyond financial contributions to 
+                       include active mentorship and hands-on involvement in the organizations she supported.
+                     </p>
+                     
                      <p>
                        Carole's legacy continues through the foundation she helped establish and the countless lives 
                        she touched through her activism and philanthropy. Her vision of a more inclusive and 
                        compassionate society remains at the heart of the Foundation's work today, inspiring new 
                        generations of changemakers to carry forward her mission of justice and equality. Her commitment 
                        to building bridges across communities and her belief in the power of collective action continue 
-                       to guide the Foundation's approach to transformative philanthropy.
+                       to guide the Foundation's approach to transformative philanthropy, ensuring that her values 
+                       and principles remain central to every grant and initiative undertaken in her memory.
                      </p>
                   </div>
                 </CardContent>
