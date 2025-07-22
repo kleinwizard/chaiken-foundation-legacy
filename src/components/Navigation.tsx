@@ -24,9 +24,11 @@ export const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <span className="font-display text-3xl lg:text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              The Chaiken Foundation
-            </span>
+            {location.pathname !== '/' && (
+              <span className="font-display text-3xl lg:text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent">
+                The Chaiken Foundation
+              </span>
+            )}
           </Link>
 
           {/* Desktop Navigation */}
