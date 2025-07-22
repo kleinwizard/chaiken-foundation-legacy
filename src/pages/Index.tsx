@@ -36,8 +36,9 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="mb-6">A Legacy of Principled Philanthropy</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              In 26 years of dedicated philanthropy, Donald and Carole Chaiken directed over 4,200 grants—building 
-              a legacy defined by principled giving, public responsibility, and a deep commitment to human dignity.
+              Over 26 years of dedicated philanthropy, Donald and Carole Chaiken directed more than 4,200 grants—building 
+              a legacy defined by principled giving, public responsibility, and a deep commitment to human dignity, now 
+              carried forward through the mission of the Chaiken Foundation.
             </p>
           </div>
 
