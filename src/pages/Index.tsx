@@ -52,52 +52,52 @@ const Index = () => {
 
           {/* Feature Cards */}
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Link to="/mission">
-              <Card className="bg-gradient-to-br from-primary/20 to-primary/30 border-primary/30 card-shadow hover:hover-shadow transition-all duration-300 cursor-pointer">
+            <Link to="/mission" className="h-full">
+              <Card className="bg-gradient-to-br from-primary/20 to-primary/30 border-primary/30 card-shadow hover:hover-shadow transition-all duration-300 cursor-pointer h-full flex flex-col">
                 <CardHeader className="text-center">
                   <CardTitle className="text-2xl text-primary">Mission & Values</CardTitle>
                 </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-center mb-4 text-foreground/80">
+                <CardContent className="flex-1 flex items-center">
+                  <CardDescription className="text-center text-foreground/80">
                     Discover our commitment to justice, equity, and human dignity.
                   </CardDescription>
                 </CardContent>
               </Card>
             </Link>
 
-            <Link to="/legacy">
-              <Card className="bg-gradient-to-br from-accent/25 to-accent/35 border-accent/40 card-shadow hover:hover-shadow transition-all duration-300 cursor-pointer">
+            <Link to="/legacy" className="h-full">
+              <Card className="bg-gradient-to-br from-accent/25 to-accent/35 border-accent/40 card-shadow hover:hover-shadow transition-all duration-300 cursor-pointer h-full flex flex-col">
                 <CardHeader className="text-center">
                   <CardTitle className="text-2xl text-primary">Legacy</CardTitle>
                 </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-center mb-4 text-accent-foreground/80">
+                <CardContent className="flex-1 flex items-center">
+                  <CardDescription className="text-center text-accent-foreground/80">
                     Honor the visionary leadership of Donald and Carole Chaiken.
                   </CardDescription>
                 </CardContent>
               </Card>
             </Link>
 
-            <Link to="/values">
-              <Card className="bg-gradient-to-br from-slate-100 to-slate-200 border-slate-300 card-shadow hover:hover-shadow transition-all duration-300 cursor-pointer">
+            <Link to="/values" className="h-full">
+              <Card className="bg-gradient-to-br from-slate-100 to-slate-200 border-slate-300 card-shadow hover:hover-shadow transition-all duration-300 cursor-pointer h-full flex flex-col">
                 <CardHeader className="text-center">
                   <CardTitle className="text-2xl text-primary">Values</CardTitle>
                 </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-center mb-4 text-slate-600">
+                <CardContent className="flex-1 flex items-center">
+                  <CardDescription className="text-center text-slate-600">
                     The foundational principles guiding our philanthropic work.
                   </CardDescription>
                 </CardContent>
               </Card>
             </Link>
 
-            <Link to="/areas-of-focus">
-              <Card className="bg-gradient-to-br from-primary/15 via-accent/15 to-primary/20 border-primary/25 card-shadow hover:hover-shadow transition-all duration-300 cursor-pointer">
+            <Link to="/areas-of-focus" className="h-full">
+              <Card className="bg-gradient-to-br from-primary/15 via-accent/15 to-primary/20 border-primary/25 card-shadow hover:hover-shadow transition-all duration-300 cursor-pointer h-full flex flex-col">
                 <CardHeader className="text-center">
                   <CardTitle className="text-2xl text-primary">Focus</CardTitle>
                 </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-center mb-4 text-foreground/80">
+                <CardContent className="flex-1 flex items-center">
+                  <CardDescription className="text-center text-foreground/80">
                     Strategic investments in Jewish causes, democracy, women's rights, arts and community.
                   </CardDescription>
                 </CardContent>
