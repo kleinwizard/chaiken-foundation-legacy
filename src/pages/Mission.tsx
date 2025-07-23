@@ -13,7 +13,7 @@ const Mission = () => {
             <div className="relative bg-background/90 backdrop-blur-sm p-8 lg:p-12 rounded-2xl elegant-shadow">
               <div className="text-center mb-8">
                 <h2 className="font-display text-4xl lg:text-5xl font-medium mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                  The Chaiken Foundation
+                  Mission
                 </h2>
                 <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full"></div>
               </div>
