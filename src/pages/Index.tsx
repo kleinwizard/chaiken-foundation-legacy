@@ -12,10 +12,15 @@ const Index = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section 
-        className="relative min-h-[600px] flex items-center justify-center bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBackground})` }}
-      >
+      <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden">
+        {/* Dynamic Diagonal Background */}
+        <div 
+          className="absolute top-0 left-0 w-[150%] h-[150%] bg-cover bg-center bg-no-repeat transform -rotate-12 origin-left scale-110"
+          style={{ 
+            backgroundImage: `url(${heroBackground})`,
+            transform: 'rotate(-12deg) translateX(-20%) translateY(-10%)'
+          }}
+        ></div>
         <div className="absolute inset-0 bg-primary/80"></div>
         <div className="relative z-10 max-w-4xl mx-auto text-center px-6 text-primary-foreground">
           <h1 className="mb-6 font-display text-3xl sm:text-4xl md:text-6xl lg:text-8xl xl:text-9xl font-bold bg-gradient-primary bg-clip-text text-transparent whitespace-nowrap">
