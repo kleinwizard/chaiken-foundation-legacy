@@ -4,7 +4,7 @@ import { Badge } from '@/components/ui/badge';
 import { Users, Award, Briefcase, GraduationCap } from 'lucide-react';
 import julieImage from '/lovable-uploads/46a45362-ce9e-4d76-a421-e15b7cc76559.png';
 import sharonImage from '@/assets/sharon-miller.jpg';
-import melissaImage from '@/assets/melissa-heller.jpg';
+import melissaImage from '/lovable-uploads/ac76a387-dfd3-4e83-8dd8-95625b97b8e0.png';
 
 const boardMembers = [
   {
