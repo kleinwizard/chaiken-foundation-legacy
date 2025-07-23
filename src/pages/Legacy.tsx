@@ -91,6 +91,15 @@ const Legacy = () => {
                       his deep desire to make a real, lasting impact.
                     </p>
                     
+                    <div className="bg-primary/10 p-4 rounded-lg">
+                      <p className="italic font-medium text-primary">
+                        "Always think about the next generation."
+                      </p>
+                      <p className="text-xs text-muted-foreground mt-1">
+                        Donald's guiding principle for sustainable philanthropy and community building
+                      </p>
+                    </div>
+                    
                     <p>
                       Donald's leadership extended beyond the world of real estate. He was deeply involved in 
                       Jewish communal life, supporting numerous organizations. His dedication to the community 
