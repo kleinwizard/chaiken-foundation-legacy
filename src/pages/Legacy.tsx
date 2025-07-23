@@ -8,7 +8,7 @@ const Legacy = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-primary/5 to-background px-6 md:px-8 lg:px-12 pt-16 pb-4">
+      <section className="bg-gradient-to-b from-primary/5 to-background px-6 md:px-8 lg:px-12 pt-16 pb-1">
         <div className="max-w-6xl mx-auto text-center">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-accent/20 rounded-full mb-6">
             <span className="text-2xl font-bold text-accent">ז״ל</span>
@@ -19,13 +19,13 @@ const Legacy = () => {
       </section>
 
       {/* Introduction */}
-      <section className="px-6 md:px-8 lg:px-12 pt-4 pb-8">
+      <section className="px-6 md:px-8 lg:px-12 pt-1 pb-8">
         <div className="max-w-4xl mx-auto">
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-accent/5 to-primary/5 rounded-2xl"></div>
             <div className="relative bg-background/90 backdrop-blur-sm p-8 lg:p-12 rounded-2xl elegant-shadow">
-              <div className="text-center mb-4">
-                <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full mb-4"></div>
+              <div className="text-center mb-2">
+                <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full mb-2"></div>
               </div>
               <p className="text-lg leading-relaxed text-center">
                 The Chaiken Foundation is a living testament to the visionary leadership, 
