@@ -76,11 +76,11 @@ const Index = () => {
 
             <Card className="bg-gradient-to-br from-slate-100 to-slate-200 border-slate-300 card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-primary">Our Values</CardTitle>
+                <CardTitle className="text-2xl text-primary">Values</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center mb-4 text-slate-600">
-                  Ten foundational principles guiding our philanthropic work.
+                  The foundational principles guiding our philanthropic work.
                 </CardDescription>
               </CardContent>
             </Card>
