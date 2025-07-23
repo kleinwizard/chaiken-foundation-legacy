@@ -53,9 +53,9 @@
     --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(35 20% 99%) 100%);
     
     /* Shadows for depth */
-    --shadow-elegant: 0 4px 24px -8px hsl(221 83% 25% / 0.12);
-    --shadow-card: 0 2px 12px -4px hsl(221 83% 25% / 0.08);
-    --shadow-hover: 0 8px 32px -8px hsl(221 83% 25% / 0.16);
+    --shadow-elegant: 0 8px 32px -8px hsl(221 83% 25% / 0.20);
+    --shadow-card: 0 4px 20px -4px hsl(221 83% 25% / 0.15);
+    --shadow-hover: 0 12px 48px -8px hsl(221 83% 25% / 0.25);
     
     /* Spacing and layout */
     --radius: 0.5rem;
