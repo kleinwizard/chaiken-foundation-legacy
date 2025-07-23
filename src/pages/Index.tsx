@@ -52,45 +52,45 @@ const Index = () => {
 
           {/* Feature Cards */}
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Card className="bg-gradient-to-br from-blue-50 to-blue-100 border-blue-200 card-shadow hover:hover-shadow transition-all duration-300 hover:from-blue-100 hover:to-blue-150">
+            <Card className="bg-gradient-to-br from-primary/5 to-primary/10 border-primary/20 card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-blue-800">Mission & Values</CardTitle>
+                <CardTitle className="text-2xl text-primary">Mission & Values</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-center mb-4 text-blue-700">
+                <CardDescription className="text-center mb-4">
                   Discover our commitment to justice, equity, and human dignity.
                 </CardDescription>
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-br from-purple-50 to-purple-100 border-purple-200 card-shadow hover:hover-shadow transition-all duration-300 hover:from-purple-100 hover:to-purple-150">
+            <Card className="bg-gradient-to-br from-accent/5 to-accent/10 border-accent/20 card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-purple-800">Legacy</CardTitle>
+                <CardTitle className="text-2xl text-accent-foreground">Legacy</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-center mb-4 text-purple-700">
+                <CardDescription className="text-center mb-4">
                   Honor the visionary leadership of Donald and Carole Chaiken.
                 </CardDescription>
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-br from-green-50 to-green-100 border-green-200 card-shadow hover:hover-shadow transition-all duration-300 hover:from-green-100 hover:to-green-150">
+            <Card className="bg-gradient-to-br from-muted/20 to-muted/30 border-muted/40 card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-green-800">Our Values</CardTitle>
+                <CardTitle className="text-2xl text-foreground">Our Values</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-center mb-4 text-green-700">
+                <CardDescription className="text-center mb-4">
                   Ten foundational principles guiding our philanthropic work.
                 </CardDescription>
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-br from-amber-50 to-amber-100 border-amber-200 card-shadow hover:hover-shadow transition-all duration-300 hover:from-amber-100 hover:to-amber-150">
+            <Card className="bg-gradient-to-br from-primary/5 to-accent/5 border-primary/20 card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-amber-800">Focus</CardTitle>
+                <CardTitle className="text-2xl text-primary">Focus</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-center mb-4 text-amber-700">
+                <CardDescription className="text-center mb-4">
                   Strategic investments in democracy, women's rights, and community.
                 </CardDescription>
               </CardContent>
