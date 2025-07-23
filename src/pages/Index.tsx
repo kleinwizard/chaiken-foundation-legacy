@@ -91,7 +91,7 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center mb-4 text-foreground/80">
-                  Strategic investments in democracy, women's rights, and community.
+                  Strategic investments in Jewish causes, democracy, women's rights, arts and community.
                 </CardDescription>
               </CardContent>
             </Card>
