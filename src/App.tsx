@@ -11,27 +11,30 @@ import Values from "./pages/Values";
 import AreasOfFocus from "./pages/AreasOfFocus";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import PasswordProtect from "./components/PasswordProtect";
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/mission" element={<Mission />} />
-          <Route path="/legacy" element={<Legacy />} />
-          <Route path="/board" element={<Board />} />
-          <Route path="/values" element={<Values />} />
-          <Route path="/areas-of-focus" element={<AreasOfFocus />} />
-          <Route path="/contact" element={<Contact />} />
-          {/* CATCH-ALL ROUTE MUST BE LAST */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
+      <PasswordProtect>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/mission" element={<Mission />} />
+            <Route path="/legacy" element={<Legacy />} />
+            <Route path="/board" element={<Board />} />
+            <Route path="/values" element={<Values />} />
+            <Route path="/areas-of-focus" element={<AreasOfFocus />} />
+            <Route path="/contact" element={<Contact />} />
+            {/* CATCH-ALL ROUTE MUST BE LAST */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </PasswordProtect>
     </TooltipProvider>
   </QueryClientProvider>
 );
