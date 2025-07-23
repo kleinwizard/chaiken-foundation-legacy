@@ -96,22 +96,28 @@ const focusAreas = [
 const AreasOfFocus = () => {
   return (
     <Layout>
-      <div className="section-padding">
-        <div className="max-w-6xl mx-auto">
-          {/* Hero Section */}
-          <section className="text-center mb-16">
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 rounded-3xl transform -rotate-1"></div>
-              <div className="relative bg-background/95 backdrop-blur-sm rounded-2xl p-12 elegant-shadow">
-                <h1 className="mb-6 text-center">
-                  Areas of Grant Making
-                </h1>
-                <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                  Strategic investments aligned with our mission and values, creating lasting impact across communities
-                </p>
+      <div className="section-padding pt-16">
+        <div className="max-w-4xl mx-auto">
+          {/* Focus Title Card */}
+          <div className="relative">
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-accent/10 rounded-2xl"></div>
+            <div className="relative bg-background/90 backdrop-blur-sm p-8 lg:p-12 rounded-2xl elegant-shadow">
+              <div className="text-center mb-8">
+                <h2 className="font-display text-4xl lg:text-5xl font-medium mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                  Areas of Focus
+                </h2>
+                <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full"></div>
               </div>
+              <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed text-center">
+                Strategic investments aligned with our mission and values, creating lasting impact across communities
+              </p>
             </div>
-          </section>
+          </div>
+        </div>
+      </div>
+
+      <div className="section-padding pt-8">
+        <div className="max-w-6xl mx-auto">
 
           {/* Focus Areas Grid */}
           <div className="grid gap-8 mb-16">
