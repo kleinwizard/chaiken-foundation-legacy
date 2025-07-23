@@ -57,7 +57,7 @@ const Index = () => {
                 <CardTitle className="text-2xl text-primary">Mission & Values</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-center mb-4 text-primary-foreground/90">
+                <CardDescription className="text-center mb-4 text-foreground/80">
                   Discover our commitment to justice, equity, and human dignity.
                 </CardDescription>
               </CardContent>
