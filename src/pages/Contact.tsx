@@ -82,18 +82,6 @@ const Contact = () => {
                 </CardContent>
               </Card>
 
-              <Card className="card-gradient card-shadow">
-                <CardHeader>
-                  <CardTitle>About Our Work</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription>
-                    The Chaiken Foundation is committed to building a more just, democratic, 
-                    and pluralistic society through strategic grantmaking and collaborative 
-                    partnerships.
-                  </CardDescription>
-                </CardContent>
-              </Card>
 
               <Card className="card-gradient card-shadow">
                 <CardHeader>
