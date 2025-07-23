@@ -12,7 +12,7 @@ import {
   Handshake, 
   CheckCircle 
 } from 'lucide-react';
-import justiceEquityImage from '@/assets/justice-equity-modern.jpg';
+import justiceEquityImage from '@/assets/justice-equity-scales.jpg';
 import democraticIntegrityImage from '@/assets/democratic-integrity.jpg';
 import humanDignityImage from '@/assets/human-dignity-community.jpg';
 import womensLeadershipImage from '@/assets/womens-rights-diverse.jpg';
