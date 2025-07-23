@@ -52,45 +52,45 @@ const Index = () => {
 
           {/* Feature Cards */}
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Card className="bg-gradient-to-br from-primary/5 to-primary/10 border-primary/20 card-shadow hover:hover-shadow transition-all duration-300">
+            <Card className="bg-gradient-to-br from-primary/20 to-primary/30 border-primary/30 card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-primary">Mission & Values</CardTitle>
+                <CardTitle className="text-2xl text-white">Mission & Values</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-center mb-4">
+                <CardDescription className="text-center mb-4 text-primary-foreground/90">
                   Discover our commitment to justice, equity, and human dignity.
                 </CardDescription>
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-br from-accent/5 to-accent/10 border-accent/20 card-shadow hover:hover-shadow transition-all duration-300">
+            <Card className="bg-gradient-to-br from-accent/25 to-accent/35 border-accent/40 card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
                 <CardTitle className="text-2xl text-accent-foreground">Legacy</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-center mb-4">
+                <CardDescription className="text-center mb-4 text-accent-foreground/80">
                   Honor the visionary leadership of Donald and Carole Chaiken.
                 </CardDescription>
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-br from-muted/20 to-muted/30 border-muted/40 card-shadow hover:hover-shadow transition-all duration-300">
+            <Card className="bg-gradient-to-br from-slate-100 to-slate-200 border-slate-300 card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-foreground">Our Values</CardTitle>
+                <CardTitle className="text-2xl text-slate-800">Our Values</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-center mb-4">
+                <CardDescription className="text-center mb-4 text-slate-600">
                   Ten foundational principles guiding our philanthropic work.
                 </CardDescription>
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-br from-primary/5 to-accent/5 border-primary/20 card-shadow hover:hover-shadow transition-all duration-300">
+            <Card className="bg-gradient-to-br from-primary/15 via-accent/15 to-primary/20 border-primary/25 card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
                 <CardTitle className="text-2xl text-primary">Focus</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-center mb-4">
+                <CardDescription className="text-center mb-4 text-foreground/80">
                   Strategic investments in democracy, women's rights, and community.
                 </CardDescription>
               </CardContent>
