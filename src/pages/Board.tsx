@@ -60,9 +60,6 @@ const Board = () => {
             <Users className="h-8 w-8 text-accent" />
           </div>
           <h1 className="mb-6">Board of Directors</h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Meet the dedicated leaders guiding The Chaiken Foundation's mission
-          </p>
         </div>
       </section>
 
