@@ -90,19 +90,19 @@ const values = [
   },
   {
     number: 9,
-    title: "Collaboration and Partnership",
-    description: "We understand that no change is achieved in isolation. By working together with like-minded organizations, communities, and leaders, we amplify our impact and co-create solutions that are meaningful, scalable, and aligned with our values. Through collaboration, we maximize the potential for lasting and impactful change.",
-    icon: Handshake,
-    image: collaborationImage,
-    color: "from-cyan-500/20 to-cyan-600/30"
-  },
-  {
-    number: 10,
     title: "Clarity and Accountability",
     description: "We approach our work with transparency, clarity, and a sense of responsibility. Our commitment to thoughtful grantmaking and clear decision-making ensures that every dollar invested aligns with our mission and values, with measurable results that make a real difference in the lives of those we serve.",
     icon: CheckCircle,
     image: clarityAccountabilityImage,
     color: "from-emerald-500/20 to-emerald-600/30"
+  },
+  {
+    number: 10,
+    title: "Collaboration and Partnership",
+    description: "We understand that no change is achieved in isolation. By working together with like-minded organizations, communities, and leaders, we amplify our impact and co-create solutions that are meaningful, scalable, and aligned with our values. Through collaboration, we maximize the potential for lasting and impactful change.",
+    icon: Handshake,
+    image: collaborationImage,
+    color: "from-cyan-500/20 to-cyan-600/30"
   }
 ];
 
