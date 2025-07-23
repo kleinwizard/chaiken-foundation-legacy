@@ -124,7 +124,7 @@ const AreasOfFocus = () => {
             {/* Jewish Community - Featured prominently */}
             <Dialog>
               <DialogTrigger asChild>
-                <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300 cursor-pointer group">
+                <Card className="bg-gradient-to-br from-primary/20 to-primary/30 border-primary/30 card-shadow hover:hover-shadow transition-all duration-300 cursor-pointer group">
                   <div className="relative h-48 overflow-hidden rounded-t-lg">
                     <img src={focusAreas[0].image} alt="Jewish Community" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -180,12 +180,18 @@ const AreasOfFocus = () => {
 
             {/* Other Focus Areas */}
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {focusAreas.slice(1).map((area) => {
+              {focusAreas.slice(1).map((area, index) => {
                 const IconComponent = area.icon;
+                const cardColors = [
+                  "bg-gradient-to-br from-accent/25 to-accent/35 border-accent/40", // Women's Rights
+                  "bg-gradient-to-br from-slate-100 to-slate-200 border-slate-300", // Arts/Culture
+                  "bg-gradient-to-br from-primary/15 via-accent/15 to-primary/20 border-primary/25", // Democracy
+                  "bg-gradient-to-br from-primary/20 to-primary/30 border-primary/30" // Other Strategic Initiatives
+                ];
                 return (
                   <Dialog key={area.title}>
                     <DialogTrigger asChild>
-                      <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300 cursor-pointer group h-full">
+                      <Card className={`${cardColors[index]} card-shadow hover:hover-shadow transition-all duration-300 cursor-pointer group h-full`}>
                         <div className="relative h-32 overflow-hidden rounded-t-lg">
                           <img src={area.image} alt={area.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
