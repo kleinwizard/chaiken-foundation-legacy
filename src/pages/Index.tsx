@@ -134,8 +134,8 @@ const Index = () => {
                 <img src={foundationWork2} alt="Educational programs and mentorship" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4 text-white">
-                  <h3 className="text-xl font-semibold mb-2">Educational Innovation</h3>
-                  <p className="text-sm opacity-90">Investing in educational programs and mentorship opportunities that empower individuals and strengthen communities.</p>
+                  <h3 className="text-xl font-semibold mb-2">Place holder</h3>
+                  <p className="text-sm opacity-90">placeholder text</p>
                 </div>
               </div>
             </Card>
