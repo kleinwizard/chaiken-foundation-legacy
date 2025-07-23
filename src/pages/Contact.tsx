@@ -92,6 +92,12 @@ const Contact = () => {
                     We focus on organizations working in Jewish community support, women's rights, 
                     democratic institutions, and arts & culture. We do not provide more than 10% 
                     of any nonprofit's annual budget.
+                    <br /><br />
+                    Grants are made twice annually. We seek to partner with organizations that 
+                    demonstrate measurable impact, sustainable operations, and alignment with our 
+                    core values of justice, equity, and community empowerment. Priority is given 
+                    to initiatives that create systemic change and long-term positive outcomes for 
+                    the communities they serve.
                   </CardDescription>
                 </CardContent>
               </Card>
