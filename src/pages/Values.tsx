@@ -12,7 +12,7 @@ import {
   Handshake, 
   CheckCircle 
 } from 'lucide-react';
-import justiceEquityImage from '@/assets/justice-equity.jpg';
+import justiceEquityImage from '@/assets/justice-equity-contemporary.jpg';
 import democraticIntegrityImage from '@/assets/democratic-integrity.jpg';
 import humanDignityImage from '@/assets/human-dignity-community.jpg';
 import womensLeadershipImage from '@/assets/womens-rights-diverse.jpg';
@@ -131,7 +131,7 @@ const Values = () => {
       </section>
 
       {/* Values Grid */}
-      <section className="section-padding">
+      <section className="section-padding pt-8">
         <div className="max-w-6xl mx-auto">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {values.map((value) => {
