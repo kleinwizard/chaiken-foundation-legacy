@@ -73,7 +73,7 @@ const Board = () => {
 
       {/* Board Members */}
       <section className="px-6 md:px-8 lg:px-12 py-8">
-        <div className="max-w-6xl mx-auto text-center">
+        <div className="max-w-6xl mx-auto">
           <div className="space-y-8">
             {boardMembers.map((member, index) => {
               const IconComponent = member.icon;
