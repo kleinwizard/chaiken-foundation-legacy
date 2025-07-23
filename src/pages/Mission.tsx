@@ -63,7 +63,7 @@ const Mission = () => {
                   </div>
                   
                   <div className="bg-gradient-to-br from-accent/5 to-accent/10 p-6 rounded-lg">
-                    <h3 className="font-display text-xl font-medium mb-3 text-accent-foreground">Women's Leadership</h3>
+                    <h3 className="font-display text-xl font-medium mb-3 text-accent-foreground">Women's Rights</h3>
                     <p>
                       Central to our mission is the advancement of women's rights and leadership. We believe that uplifting 
                       women as changemakers is essential to building strong, inclusive, and resilient societies. When women 
