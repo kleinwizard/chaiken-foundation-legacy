@@ -54,7 +54,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="bg-gradient-to-br from-primary/20 to-primary/30 border-primary/30 card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-white">Mission & Values</CardTitle>
+                <CardTitle className="text-2xl text-primary">Mission & Values</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center mb-4 text-primary-foreground/90">
@@ -65,7 +65,7 @@ const Index = () => {
 
             <Card className="bg-gradient-to-br from-accent/25 to-accent/35 border-accent/40 card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-accent-foreground">Legacy</CardTitle>
+                <CardTitle className="text-2xl text-primary">Legacy</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center mb-4 text-accent-foreground/80">
@@ -76,7 +76,7 @@ const Index = () => {
 
             <Card className="bg-gradient-to-br from-slate-100 to-slate-200 border-slate-300 card-shadow hover:hover-shadow transition-all duration-300">
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-slate-800">Our Values</CardTitle>
+                <CardTitle className="text-2xl text-primary">Our Values</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center mb-4 text-slate-600">
