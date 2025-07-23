@@ -8,9 +8,6 @@ const Mission = () => {
       {/* Hero Section with Mission Title */}
       <section className="relative min-h-[400px] flex items-center justify-center bg-gradient-to-br from-primary/10 via-accent/5 to-primary/15">
         <div className="max-w-4xl mx-auto text-center px-6">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/20 rounded-full mb-6">
-            <Quote className="w-8 h-8 text-primary" />
-          </div>
           <h1 className="font-display text-4xl lg:text-5xl font-medium mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
             Mission
           </h1>
