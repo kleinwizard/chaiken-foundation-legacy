@@ -22,14 +22,14 @@ const Index = () => {
           }}
         ></div>
         <div className="absolute inset-0 bg-primary/80"></div>
-        <div className="relative z-10 max-w-4xl mx-auto text-center px-6 text-primary-foreground">
-          <h1 className="mb-6 font-display text-3xl sm:text-4xl md:text-6xl lg:text-8xl xl:text-9xl font-bold bg-gradient-primary bg-clip-text text-transparent whitespace-nowrap">
+        <div className="relative z-10 max-w-6xl mx-auto text-center px-6 text-primary-foreground flex flex-col items-center justify-center">
+          <h1 className="mb-6 font-display text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold bg-gradient-primary bg-clip-text text-transparent text-center">
             The Chaiken Foundation
           </h1>
-          <h2 className="mb-8 font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium text-accent whitespace-nowrap">
+          <h2 className="mb-8 font-display text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium text-accent text-center max-w-4xl">
             Building a More Just, Democratic, and Pluralistic Society
           </h2>
-          <p className="text-xl md:text-2xl mb-8 font-light max-w-3xl mx-auto leading-relaxed text-primary-foreground">
+          <p className="text-xl md:text-2xl mb-8 font-light max-w-3xl mx-auto leading-relaxed text-primary-foreground text-center">
             Investing in bold ideas and enduring partnerships to strengthen communities for generations to come.
           </p>
         </div>
