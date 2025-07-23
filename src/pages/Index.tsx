@@ -26,6 +26,9 @@ const Index = () => {
           <h1 className="mb-6 font-display text-3xl sm:text-4xl md:text-6xl lg:text-8xl xl:text-9xl font-bold bg-gradient-primary bg-clip-text text-transparent whitespace-nowrap">
             The Chaiken Foundation
           </h1>
+          <h2 className="mb-8 font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium text-accent whitespace-nowrap">
+            Building a More Just, Democratic, and Pluralistic Society
+          </h2>
           <p className="text-xl md:text-2xl mb-8 font-light max-w-3xl mx-auto leading-relaxed text-primary-foreground">
             Investing in bold ideas and enduring partnerships to strengthen communities for generations to come.
           </p>
