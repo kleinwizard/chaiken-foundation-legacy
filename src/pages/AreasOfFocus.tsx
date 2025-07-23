@@ -133,7 +133,7 @@ const AreasOfFocus = () => {
                     <CardTitle className="font-display text-2xl mb-2">
                       Jewish Community
                     </CardTitle>
-                    <CardDescription className="text-lg text-center">
+                    <CardDescription className="text-lg text-center mx-auto">
                       Supporting Jewish communities worldwide
                     </CardDescription>
                   </CardHeader>
