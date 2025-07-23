@@ -54,12 +54,20 @@ const Board = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-primary/5 to-background px-6 md:px-8 lg:px-12 pt-16 pb-8">
-        <div className="max-w-6xl mx-auto text-center">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-accent/20 rounded-full mb-6">
-            <Users className="h-8 w-8 text-accent" />
+      <section className="section-padding pt-16">
+        <div className="max-w-4xl mx-auto">
+          {/* Board Title Card */}
+          <div className="relative mb-16">
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-accent/10 rounded-2xl"></div>
+            <div className="relative bg-background/90 backdrop-blur-sm p-8 lg:p-12 rounded-2xl elegant-shadow">
+              <div className="text-center mb-8">
+                <h2 className="font-display text-4xl lg:text-5xl font-medium mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                  Board of Directors
+                </h2>
+                <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full"></div>
+              </div>
+            </div>
           </div>
-          <h1 className="mb-6">Board of Directors</h1>
         </div>
       </section>
 
