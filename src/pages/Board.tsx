@@ -57,7 +57,7 @@ const Board = () => {
       <section className="section-padding pt-16">
         <div className="max-w-4xl mx-auto">
           {/* Board Title Card */}
-          <div className="relative mb-8">
+          <div className="relative mb-2">
             <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-accent/10 rounded-2xl"></div>
             <div className="relative bg-background/90 backdrop-blur-sm p-8 lg:p-12 rounded-2xl elegant-shadow">
               <div className="text-center mb-8">
