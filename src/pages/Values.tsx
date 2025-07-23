@@ -133,7 +133,7 @@ const Values = () => {
       {/* Values Grid */}
       <section className="section-padding pt-8">
         <div className="max-w-6xl mx-auto">
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-2">
             {values.map((value) => {
               const IconComponent = value.icon;
               return (
