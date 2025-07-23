@@ -14,6 +14,9 @@ const Legacy = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-accent/5 to-primary/5 rounded-2xl"></div>
             <div className="relative bg-background/90 backdrop-blur-sm p-6 lg:p-8 rounded-2xl elegant-shadow">
               <div className="text-center mb-1">
+                <div className="inline-flex items-center justify-center w-12 h-12 bg-accent/20 rounded-full mb-3">
+                  <span className="text-xl font-bold text-accent">ז״ל</span>
+                </div>
                 <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full mb-1"></div>
               </div>
               <p className="text-lg leading-relaxed text-center">
