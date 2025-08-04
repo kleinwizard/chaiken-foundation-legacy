@@ -45,7 +45,11 @@ const boardMembers = [
     colorClass: "from-muted/30 to-muted/40",
     badgeClass: "bg-muted text-foreground",
     bio: [
-      "Melissa brings more than twenty years of development experience in the nonprofit world to the Chaiken Foundation board. A native of New Jersey, she earned her BA from Brandeis University and her JD from Cardozo School of Law, Yeshiva University. She has served on a variety of boards and committees for school, community, and Jewish organizations in the East Bay. Melissa is a member of the Board of Temple Sinai in Oakland, where she serves on the development committee and was instrumental in leading the Temple's capital campaign. She has also served on multiple rabbi search committees. Melissa lives in Oakland with her husband, Steven Douglas, and their 6th-generation Bay Area children."
+      "Melissa Heller brings more than two decades of experience in executive search, nonprofit development, and entrepreneurship to her board service. She currently serves as an Executive Search Consultant at Guild Talent, where she has led leadership searches for venture- and private equity-backed companies since 2020.",
+      "Melissa's career includes a strong track record in nonprofit development and fundraising. Her previous roles include Director of Development at Berkeley Hillel, Manager of Donor Relations at George Mark Children's House, and Development Officer at Seneca Family of Agencies. From 2010 to 2014, she provided independent consulting to a range of nonprofits, leading initiatives in donor engagement, event planning, and capital campaigns. Her work has consistently focused on building lasting donor relationships, managing complex development operations, and advancing organizational goals through strategic fundraising.",
+      "She also has held executive recruiting roles at Korn/Ferry International and in the financial services sector, giving her a strong foundation in talent strategy and organizational leadership.",
+      "Melissa earned her JD from Cardozo School of Law and holds a BA in Sociology and Women's Studies from Brandeis University.",
+      "Deeply committed to community and Jewish life, Melissa served on the Board of Temple Sinai in Oakland from 2016 to 2022, where she also held leadership roles in development, search committees, and parent engagement. She currently serves on the Board of the Jewish Community High School of the Bay."
     ]
   }
 ];
@@ -120,9 +124,9 @@ const Board = () => {
                               )}
                               {index === 2 && (
                                 <>
-                                  <span className="text-xs bg-muted px-2 py-1 rounded-full">20+ Years Nonprofit</span>
+                                  <span className="text-xs bg-muted px-2 py-1 rounded-full">Executive Search</span>
                                   <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">Legal Background</span>
-                                  <span className="text-xs bg-accent/10 text-accent-foreground px-2 py-1 rounded-full">Bay Area Leader</span>
+                                  <span className="text-xs bg-accent/10 text-accent-foreground px-2 py-1 rounded-full">Development Expert</span>
                                 </>
                               )}
                             </div>

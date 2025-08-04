@@ -154,23 +154,8 @@ const Legacy = () => {
                       humor, and compassion. Born in Evanston, Illinois, and raised in Los Angeles, Carole's early 
                       life shaped the strong, determined personality that would define her later years. She earned 
                       a degree in psychology from UCLA and worked as a Juvenile Probation Officer before meeting 
-                      the love of her life, Donald, in 1966. They married and built a life together, raising three 
-                      daughters while being deeply engaged in their community.
-                    </p>
-                    
-                    <p>
-                      Carole's impact was felt across a wide array of causes, from supporting Jewish organizations 
-                      to advocating for women's rights, LGBTQ+ causes, and religious pluralism in Israel. As a 
-                      passionate supporter of education and social justice, Carole was instrumental in the creation 
-                      of the Donald and Carole Chaiken Foundation in 1999, which has since provided crucial funding 
-                      for Jewish, educational, and community organizations.
-                    </p>
-                    
-                    <p>
-                      Her passions extended to art and thoroughbred horse racing, areas where she cultivated lifelong 
-                      interests and formed lasting connections with a broad network of friends and supporters. Carole's 
-                      diverse interests reflected her belief that a full life required engagement across multiple 
-                      spheres - from social justice to cultural appreciation to the joy of competitive sports.
+                      the love of her life, Donald. Her parents met in 1962 and married in 1966. Carole and Donald 
+                      married and built a life together, raising three daughters while being deeply engaged in their community.
                     </p>
                     
                      <p>
