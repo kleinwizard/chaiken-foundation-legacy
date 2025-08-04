@@ -20,7 +20,7 @@ import communityBuildingImage from '@/assets/community-building-jewish.jpg';
 import jewishValuesImage from '@/assets/jewish-values-authentic.jpg';
 import creativeExpressionImage from '@/assets/creative-expression.jpg';
 import longTermImpactImage from '@/assets/long-term-impact.jpg';
-import collaborationImage from '@/assets/collaboration-hands-public-domain.jpg';
+import collaborationImage from '@/assets/jewish-collaboration-community.jpg';
 import clarityAccountabilityImage from '@/assets/clarity-accountability.jpg';
 
 const values = [
