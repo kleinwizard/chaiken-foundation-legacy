@@ -46,9 +46,6 @@ const Mission = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300 h-full">
               <CardHeader className="text-center pb-4">
-                <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Palette className="w-6 h-6 text-primary" />
-                </div>
                 <CardTitle className="font-display text-xl font-medium text-primary">Arts & Culture</CardTitle>
               </CardHeader>
               <CardContent>
@@ -61,9 +58,6 @@ const Mission = () => {
 
             <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300 h-full">
               <CardHeader className="text-center pb-4">
-                <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Vote className="w-6 h-6 text-accent-foreground" />
-                </div>
                 <CardTitle className="font-display text-xl font-medium text-accent-foreground">Democratic Values</CardTitle>
               </CardHeader>
               <CardContent>
@@ -76,9 +70,6 @@ const Mission = () => {
 
             <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300 h-full">
               <CardHeader className="text-center pb-4">
-                <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Star className="w-6 h-6 text-primary" />
-                </div>
                 <CardTitle className="font-display text-xl font-medium text-primary">Jewish Values</CardTitle>
               </CardHeader>
               <CardContent>
@@ -92,9 +83,6 @@ const Mission = () => {
             
             <Card className="card-gradient card-shadow hover:hover-shadow transition-all duration-300 h-full">
               <CardHeader className="text-center pb-4">
-                <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Heart className="w-6 h-6 text-accent-foreground" />
-                </div>
                 <CardTitle className="font-display text-xl font-medium text-accent-foreground">Women's Rights</CardTitle>
               </CardHeader>
               <CardContent>
